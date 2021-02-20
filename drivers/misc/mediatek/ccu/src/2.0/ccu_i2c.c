@@ -402,3 +402,4 @@ static inline void i2c_writew(u16 value, struct mt_i2c *i2c, u16 offset)
 {
 	writew(value, i2c->base + offset);
 }
+
