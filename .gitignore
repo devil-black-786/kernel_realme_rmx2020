@@ -124,9 +124,7 @@ all.config
 *.kdev4
 
 # fetched Android config fragments
-<<<<<<< HEAD
 kernel/configs/android-*.cfg
-=======
 android/configs/android-*.cfg
 
 # build directories
@@ -135,4 +133,4 @@ clang/
 gcc/
 gcc32/
 AnyKernel/
->>>>>>> 389333b189d6... Add build script and add build directories to .gitignore
+
