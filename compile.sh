@@ -61,7 +61,7 @@ fi
 function compile() {
 
     echo -e "${CYAN}"
-    make -j$(nproc) O=out ARCH=arm64 oppo6771__defconfig
+    make -j$(nproc) O=out ARCH=arm64 rmx2020_defconfig
     make -j$(nproc) O=out \
                     ARCH=arm64 \
                     CC=clang \
